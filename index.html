@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="Style.css">
+    <title>Tableau de Bord</title>
+</head>
+<body>
+    <div class="container">
+        <!----------------------SIDEBAR-------------------------------------->      
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="Image/Recycle-iconaaa.png" alt="">
+                    <h2 class="text-muted">MIM<span class="danger">BAYOR</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <i class="material-icons">clear</i>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="" class="active">
+                    <i class="material-icons">dashboard</i>
+                    <h3>Tableau de Bord</h3>
+                </a>
+                <a href="indexclient.html">
+                    <i class="material-icons">perm_identity</i>
+                    <h3>Clients</h3>
+                </a>
+                <a href="indexmessage.html">
+                    <i class="material-icons">mail_outline</i>
+                    <h3>Messages</h3>
+                    <span class="message-count"><i class="material-icons">add_alert</i>
+                    </span>
+                </a>
+                <a href="indexproduit.html">
+                    <i class="material-icons">content_paste</i>
+                    <h3>Produit</h3>
+                </a>
+                <a href="#">
+                    <i class="material-icons">settings</i>
+                    <h3>Parametre</h3>
+                </a>
+                </a>
+                <a href="#">
+                    <i class="material-icons">exit_to_app</i>
+                    <h3>Se déconnecter</h3>
+                </a>
+            </div>
+        </aside>
+        <!----------------------END OF SIDEBAR-------------------------------------->      
+        <main>
+            <h1>Tableau de Bord</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="insights">
+            
+                <div class="sales">
+                    <i class="material-icons">assessment</i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Des Ventes</h3>
+                            <h1>25.000.000F Cfa</h1>
+                        </div>
+
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>80%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!--fin de sales-->
+    
+                <div class="expense">
+                    <i class="material-icons">equalizer</i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Des Depense</h3>
+                            <h1>15.000.000F Cfa</h1>
+                        </div>
+
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>57%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-- fin de cadre de depense-->
+
+                <div class="incomne">
+                    <i class="material-icons">show_chart</i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Des Revenues</h3>
+                            <h1>13.000.000F Cfa</h1>
+                        </div>
+
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>24%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!-- fin de cadre de incomne-->
+            </div>
+
+            <div class="recent-orders">
+                <h2>recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nom Produit</th>
+                            <th>Num Produit</th>
+                            <th>Payment</th>
+                            <th>Shipping</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>58642</td>
+                            <td>Eligible</td>
+                            <td class="warming">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>58642</td>
+                            <td>Eligible</td>
+                            <td class="warming">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>58642</td>
+                            <td>Eligible</td>
+                            <td class="warming">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>58642</td>
+                            <td>Eligible</td>
+                            <td class="warming">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>58642</td>
+                            <td>Eligible</td>
+                            <td class="warming">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>58642</td>
+                            <td>Eligible</td>
+                            <td class="warming">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show all</a>
+            </div>
+        </main>
+        <!------------END OF MAIN----------->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <i class="material-icons">menu</i>
+                </button>
+
+                <div class="theme-toggler">
+                    <i class="material-icons active" >wb_sunny</i>
+                    <i class="material-icons">brightness_2</i>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Hervé</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+
+                    <div class="profile-photo">
+                        <img src="Image/PXL_20230303_141244606.PORTRAIT.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-updates">
+                <h2>Derniere Mise à jour</h2>
+                <div class="updates">
+                    <div class="Update">
+                        <div class="profile-photo">
+                           <img src="Image/Herve.jpg" alt=""> 
+                        </div>
+
+                        <div class="message">
+                            <p><b>Milliano</b> a reçu l'odre de mérite depuis le TIC-developement de New York City</p>
+                            <small class="text-muted">Il y'a 2 min</small>
+                        </div>
+                    </div>
+
+                    <div class="Update">
+                        <div class="profile-photo">
+                           <img src="Image/logo.png" alt=""> 
+                        </div>
+
+                        <div class="message">
+                            <p><b>Lomskiny</b> est satisfait de la livraison sur Lossokopé</p>
+                            <small class="text-muted">23 Heures</small>
+                        </div>
+                    </div>
+
+                    <div class="Update">
+                        <div class="profile-photo">
+                           <img src="Image/bt.jpg" alt=""> 
+                        </div>
+
+                        <div class="message">
+                            <p><b>Rachida la go choco</b> Woeh! vous avez un bon timing de livraison</p>
+                            <small class="text-muted">il y'a une Semaine</small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-------------fin de la des dernier mise ajour-->
+            <div class="sales-analytics">
+                <h2>Annalyse de Ventes</h2>
+                <div class="item online">
+                   <div class="icon">
+                    <i class="material-icons">local_grocery_store</i>
+                   </div> 
+
+                   <div class="right">
+                    <div class="info">
+                        <h3>Commande en ligne</h3>
+                        <small class="text-muted">Derniere 24 Heures</small>
+                    </div>
+                    <h5 class="success">+40%</h5>
+                    <h3>3849</h3>
+                   </div>
+                </div>
+
+                <div class="item offline">
+                    <div class="icon">
+                        <i class="material-icons">local_mall</i>
+                    </div> 
+ 
+                    <div class="right">
+                     <div class="info">
+                         <h3>Commande hors ligne</h3>
+                         <small class="text-muted">Derniere 24 Heures</small>
+                     </div>
+                     <h5 class="danger">+21%</h5>
+                     <h3>7489</h3>
+                    </div>
+                </div>
+
+                <div class="item customers">
+                    <div class="icon">
+                        <i class="material-icons">perm_identity</i>
+                    </div> 
+ 
+                    <div class="right">
+                     <div class="info">
+                         <h3>Nouveaux Clients</h3>
+                         <small class="text-muted">Derniere 24 Heures</small>
+                     </div>
+                     <h5 class="success">+30%</h5>
+                     <h3>387</h3>
+                    </div>
+                </div>
+                <div class="item add-product">
+                    <div>
+                        <i class="material-icons">add</i>
+                        <h3>Ajouter Nouveaux Produit</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="./index.js"></script>
+   
+</body>
+</html>
